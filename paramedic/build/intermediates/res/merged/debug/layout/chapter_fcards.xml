@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/chapters" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/titlebar"
+        android:src="@drawable/fcards_bar" />
+    
+        <LinearLayout
+        android:id="@+id/quiz_chapter_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/quiz_bar"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/quiz_chapterbar" >
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/banner_margin_left"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/chapters"
+            android:textSize="@dimen/answer_text_size"/>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/quiz_chapter_bar"
+        android:padding="15dp" >
+
+
+        <ListView
+            android:id="@+id/chapter_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/detail_corner_bg"
+            android:cacheColorHint="@null"
+            android:dividerHeight="0dp"
+            android:drawSelectorOnTop="false"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

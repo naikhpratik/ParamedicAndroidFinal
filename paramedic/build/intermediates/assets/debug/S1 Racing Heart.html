@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+	var obj = document.getElementById('content_'+ids);
+	var obj_title = document.getElementById('title_'+ids);
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_header_1 = document.getElementById('header_'+ids+'_1');
+	var obj_img = document.getElementById('img_'+ids);
+	if(obj)
+	if(obj.style.display==''){
+		//obj.style.display='none';
+		
+	}else{
+		
+		obj.style.display='';
+	}
+	if(obj_img)
+	if(obj_img.src=="CircleArrowDown.png"){
+		obj_img.src="CircleArrow.png";	
+	}else{
+		obj_img.src="CircleArrowDown.png";	
+	}
+	if(obj_title)
+	if(obj_title.style.display==''){
+		//obj_title.style.display='none';
+		
+	}else{
+		obj_title.style.display='';
+	}
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header.style.display='';
+	}
+	
+	if(obj_header_1)
+    if(obj_header_1.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header_1.style.display='';
+	}
+	//obj_title.style.display='none';
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px;}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #000099;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <p>1. <b>Racing Heart</b></p>
+    <div class="menu">You are called emergent to a 36 year old female patient who is complaining of feeling weak. The patient states that about 30 minutes ago she was trying to sleep and felt her heart “racing.” The patient’s skin is pink, warm and dry and she is starting to have chest pain. Patient states it’s hard to tell if it is chest pain or palpitations. Patient denies other medical history. Denies cardiac/respiratory history. Patient states she takes birth control daily, has no allergies, and has never been admitted to the hospital.</div>
+	<ul>
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);">Choose the initial treatment plan for this patient:<P>
+
+1. Obtain baseline vitals and place patient on high flow O2 via non rebreather mask<BR>
+2. Obtain vitals and prepare dopamine infusion<BR>
+3. Place patient on defibrillation patches and attempt cardioversion<BR>
+4. Obtain baseline vitals and apply cardiac monitor
+</a> </li>
+     
+<li id="content_1" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>Baseline vitals including 4 lead is probably the most important for this patient. </div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+    <ul style="display:none" id="title_1">
+        <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_2"/><a href="javascript:hiddencontent(2);">She seems stable at this time, based on history presented. You obtain BP- 122/80, R –160, Respirations –22, SPO2 99% on room air and this is the EKG that you see:<P><img src=“EKG1.png”/><P>  
+You start an IV and obtain a 12 lead EKG. The 12 lead comes back unremarkable, aside from rate, and there is no change to heart rate. What should you do for this patient now?<P>
+
+1. Perform vagal maneuvers<BR>
+2. Administer 6mg adenosine<BR>
+3. Administer 12 mg adenosine<BR>
+4. Place a bag of ice on the patient’s face
+</a> </li>
+     <li id="content_2" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;">
+         	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>Vagal maneuvers and O2 can help many people convert from SVT to normal rate.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end-->
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+    <div id="header_2" style="display:none" class="menu">  You assist patient in performing vagal maneuvers without success. </div>
+	<ul style="display:none" id="title_2">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_3"/><a href="javascript:hiddencontent(3);">What is the best treatment option now that vagal maneuvers are unsuccessful?<P>
+
+1. Synchronize cardiovert<BR>
+2. Administer 6 mg adenosine rapid IVP<BR>
+3. Administer 12 mg adenosine rapid IVP<BR>
+4. Transport to nearest facility
+</a> </li>
+     
+<li id="content_3" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>After vagal maneuvers fail to work, you should administer 6mg adenosine rapid IVP.  You give 6mg adenosine, and you notice no changes to the EKG but the patient complains that they cannot breath and are having chest pain. This pain resolves within 10 seconds but patient asks you not to attempt something like that again. 
+</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+    <ul style="display:none" id="title_3">
+        <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_4"/><a href="javascript:hiddencontent(4);">What should you do next?<P>
+
+1. Coach the patient and administer 6mg adenosine<BR>
+2. Coach the patient and administer 12mg adenosine<BR>
+3. Sedate patient and synchronize cardiovert<BR>
+4. Transport to the nearest facility that can handle stable SVT
+</a> </li>
+     <li id="content_4" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;">
+         	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div> Administering 12 mg adenosine is the next step in this scenario. Cardioversion is recommended for unstable patients, but this patient is currently stable.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end-->
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+    <div id="header_4" style="display:none" class="menu"> You administer adenosine and this is the EKG that you see:<img src=“EKG1_2.png”/>
+</div>
+	<ul style="display:none" id="title_4">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_5"/><a href="javascript:hiddencontent(5);">The adenosine appears to have worked, how should you treat the bradycardia shown?<P>
+
+1. Pace<BR>
+2. Administer 0.5 mg atropine<BR>
+3. Bradycardia should be transient and will pass after adenosine is metabolized<BR>
+4. Take vital signs and see if bradycardia is affecting blood pressure
+</a> </li>
+     
+<li id="content_5" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>This type of bradycardia is transient and no intervention should be taken at this time. Complications after adenosine are uncommon.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+    <ul style="display:none" id="title_5">
+        <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_6"/><a href="javascript:hiddencontent(6);">The patient converts to a sinus rhythm for about 5 minutes, then suddenly, the patient slumps over to the side and becomes unresponsive. You check for a pulse and the rate has gone up to 180 bpm. How should you deal with this heart rate?<P>
+
+1. Defibrillate at 100 joules<BR>
+2. Attempt to give 12 mg adenosine<BR>
+3. Perform synchronized cardioversion at 50 joules<BR>
+4. Perform synchronized cardioversion at 200 joules
+</a> </li>
+     <li id="content_6" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;">
+         	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>Tachycardia causing altered mentation requires synchronized cardioversion and AHA recommends 50-100J for narrow complex tachycardias. An unsynchronized defibrillation could result in V-fib/V-tach, and death.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end-->
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+    <ul style="display:none" id="title_6">
+        <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_7"/><a href="javascript:hiddencontent(7);">If a tachycardic heart rate returns after adenosine and cardioversion, and the patient remains alert and oriented, which type of medication should be considered?<P>
+
+1. Beta blocker or calcium channel blocker<BR>
+2. Adenosine<BR>
+3. Benzodiazepine<BR>
+4. Paralytics
+</a> </li>
+     <li id="content_7" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;">
+         	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>If adenosine and cardioversion are not successful, then this patient will need treatment with beta blockers or calcium channel blockers to slow rate.
+</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end-->
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+</div>
+</body>
+</html>

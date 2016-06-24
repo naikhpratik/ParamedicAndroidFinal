@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+	var obj = document.getElementById('content_'+ids);
+	var obj_title = document.getElementById('title_'+ids);
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_header_1 = document.getElementById('header_'+ids+'_1');
+	var obj_img = document.getElementById('img_'+ids);
+	if(obj)
+	if(obj.style.display==''){
+		//obj.style.display='none';
+		
+	}else{
+		
+		obj.style.display='';
+	}
+	if(obj_img)
+	if(obj_img.src=="CircleArrowDown.png"){
+		obj_img.src="CircleArrow.png";	
+	}else{
+		obj_img.src="CircleArrowDown.png";	
+	}
+	if(obj_title)
+	if(obj_title.style.display==''){
+		//obj_title.style.display='none';
+		
+	}else{
+		obj_title.style.display='';
+	}
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header.style.display='';
+	}
+	
+	if(obj_header_1)
+    if(obj_header_1.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header_1.style.display='';
+	}
+	//obj_title.style.display='none';
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px;}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #3CF;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <p>10. <b>Pregnant Seizure</b></p>
+    <div class="menu">You are called emergent to a 23 year old female patient who has had a seizure. A friend on scene states that she has a history of seizures and is currently taking anti-seizure medications, but this is the first one he has seen. The friend also reports patient is pregnant and thinks that she is about 3 months along in her pregnancy. You take her vitals as 130/90, heart rate 110, respirations 18, SPO2 95% on room air. Patient is not showing physical signs of her pregnancy. Physical examination is normal, and negative for swelling in the extremities. You start an IV and patient appears to be postictal.</div>
+	<ul>
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);"> If this patient goes into seizure again, what should be your treatment plan?<P>
+
+1.  Place patient left lateral recumbent and transport<BR>
+2.  Protect patient from injury and transport to most appropriate facility<BR>
+3.  Patient doesn’t appear to be pre-eclamptic so administer benzodiazepines<BR>
+4.  Patient appears to be suffering eclamptic seizures, give magnesium sulfate IVP.<BR>
+</a> </li>
+     
+<li id="content_1" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>   The key to this case is that the patient has a history of seizures and is taking anti seizure meds. This patient had a seizure, but is likely not a preeclampsia. If the patient was later in pregnancy, after 20 weeks, puffy, and swollen, then it should be considered eclampsia. </div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+</div>
+</body>
+</html>

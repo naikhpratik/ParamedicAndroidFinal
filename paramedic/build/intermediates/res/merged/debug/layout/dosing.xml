@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dosing_title" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dosing_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dosing_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dosing_bar"
+        android:background="@drawable/grey_back" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/social"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/img_comprehensive_quiz_dosing"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/comp_review" />
+
+                <ImageView
+                    android:id="@+id/img_bookmark_dosing"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bookmarks_nor" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/home.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/home.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/booklist_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/booklist_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/chapter_fcards.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/chapter_fcards.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/share.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/share.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/file.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/file.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/flashcards.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/flashcards.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_flashcard_new.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_flashcard_new.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/bookmark_items_new.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/bookmark_items_new.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/checklists_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/checklists_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/skill_sheets.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/skill_sheets.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/subchecklists_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/subchecklists_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/custom_dialog_activity.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/custom_dialog_activity.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/toolbox.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/toolbox.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_diff_rule_out.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_diff_rule_out.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_skill_sheets_html.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_skill_sheets_html.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_quiz_new.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_quiz_new.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/result.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/result.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/checklist_detail.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/checklist_detail.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/references.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/references.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/cardiology.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/cardiology.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/score_history.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/score_history.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/scenarios_quiz.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/scenarios_quiz.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/dosing_comprehensive.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/dosing_comprehensive.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/checklists.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/checklists.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/dosing.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/dosing.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/fflist.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/fflist.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/bookmarks.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/bookmarks.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/score_history_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/score_history_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/quizzes.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/quizzes.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_quiz.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_quiz.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/chelist_detail_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/chelist_detail_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_flashcard.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_flashcard.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/chapter_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/chapter_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/scenarios.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/scenarios.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/oauth_webview.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/oauth_webview.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/flashcard_detail.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/flashcard_detail.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/bookmark_list.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/bookmark_list.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/follow.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/follow.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/fflist_item.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/fflist_item.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/all_scenarios_html.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/all_scenarios_html.xml"
+    },
+    {
+        "merged": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/layout/chapter_quizzes.xml",
+        "source": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/layout/chapter_quizzes.xml"
+    }
+]

@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+	var obj = document.getElementById('content_'+ids);
+	var obj_title = document.getElementById('title_'+ids);
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_header_1 = document.getElementById('header_'+ids+'_1');
+	var obj_img = document.getElementById('img_'+ids);
+	if(obj)
+	if(obj.style.display==''){
+		//obj.style.display='none';
+		
+	}else{
+		
+		obj.style.display='';
+	}
+	if(obj_img)
+	if(obj_img.src=="CircleArrowDown.png"){
+		obj_img.src="CircleArrow.png";	
+	}else{
+		obj_img.src="CircleArrowDown.png";	
+	}
+	if(obj_title)
+	if(obj_title.style.display==''){
+		//obj_title.style.display='none';
+		
+	}else{
+		obj_title.style.display='';
+	}
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header.style.display='';
+	}
+	
+	if(obj_header_1)
+    if(obj_header_1.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header_1.style.display='';
+	}
+	//obj_title.style.display='none';
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px;}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #3CF;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <p>12. <b>Allergic Reaction</b></p>
+    <div class="menu">Your patient is a 36 year old female patient who states she is having an allergic reaction. She went to the local sports bar and had some spicy cheese sticks with jalapenos. She states that she is allergic to jalapenos and she can feel her throat swelling when she speaks. Patient states she would self-administer her epinephrine auto injector but she didn’t think she was going to have an allergic reaction today and didn’t bring it with her. </div>
+	<ul>
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);"> What should you do for this patient?<P>
+
+1.  Place patient on high flow O2 and transport to nearest facility<BR>
+2.  Take vitals and prepare to administer epinephrine 1:1 IM<BR>
+3.  Take vitals and prepare to administer epinephrine 1:10 IV<BR>
+4.  Take vitals and give steroids like methylprednisolone to reduce inflammation
+</a> </li>
+     
+<li id="content_1" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>   The medical history given is excellent and you should take vitals, including lung sounds, and prepare to administer epinephrine 1:1 IM if indicated.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>	
+    <div id="header_1" style="display:none" class="menu">· Vitals come back at BP 100/p, respirations 24 wheezing, pulse 130, SP02 100% on room air, skin has some mottling on chest and arms. You administer epinephrine 1:1 IM in the left deltoid and the patient states that she feels a little better. Patient states her throat swelling is about the same, and you continue to hear bilateral wheezing. Now the patient complains of itching on her neck and chest.</div>
+     <ul style="display:none" id="title_1">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_2"/><a href="javascript:hiddencontent(2);"> What is the next treatment for this patient?<P>
+
+1.  Place patient on high flow O2 and monitor<BR>
+2.  Place patient on an Albuterol and Atrovent via updraft nebulizer to help wheezing<BR>
+3.  Give epinephrine IV to help wheezing<BR>
+4.  Give corticosteroids
+</a> </li>
+     
+<li id="content_2" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>  In order to help this patient with their wheezing, patient should be placed on an A&A neb. The neb will also help stimulate the sympathetic nervous system response to alleviate the symptoms of anaphylaxis.</div>
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+	<ul style="display:none" id="title_2">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_3"/><a href="javascript:hiddencontent(3);"> 5-10 minutes go by and you re-assess vitals at BP 96/p, respirations 26 wheezing but improving, SPO2 100% on nebulizer and pulse 150. What should you do for this patient?<P>
+
+1.  Administer another round of epinephrine 1:1 IM<BR>
+2.  Administer epinephrine 1:1 IV<BR>
+3.  Give a crystalloid bolus for hypotension and transport<BR>
+4.  Consider intubation for airway control
+</a> </li>
+     
+<li id="content_3" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>  This patient has not improved much and another round of epinephrine 1:1 should be given IM. Epinephrine doses usually last about 5 mins in critical patients.
+</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+</div>
+</body>
+</html>

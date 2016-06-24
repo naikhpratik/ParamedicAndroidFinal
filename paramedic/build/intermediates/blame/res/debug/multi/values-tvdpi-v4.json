@@ -1,0 +1,1459 @@
+[
+    {
+        "outputFile": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/values-tvdpi-v4/values-tvdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1308,
+                        "endColumn": 59,
+                        "endOffset": 1363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 47,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 467,
+                        "endColumn": 47,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 44,
+                    "endOffset": 203
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1045,
+                        "endColumn": 44,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 208,
+                    "endColumn": 50,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1198,
+                        "endColumn": 50,
+                        "endOffset": 1244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 49,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1091,
+                        "endColumn": 49,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 54,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1142,
+                        "endColumn": 54,
+                        "endOffset": 1192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 364,
+                    "endColumn": 48,
+                    "endOffset": 408
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 897,
+                        "endColumn": 48,
+                        "endOffset": 941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 413,
+                    "endColumn": 55,
+                    "endOffset": 464
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 787,
+                        "endColumn": 55,
+                        "endOffset": 838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 469,
+                    "endColumn": 56,
+                    "endOffset": 521
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 56,
+                        "endOffset": 724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 526,
+                    "endColumn": 55,
+                    "endOffset": 577
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 730,
+                        "endColumn": 55,
+                        "endOffset": 781
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 582,
+                    "endColumn": 47,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1472,
+                        "endColumn": 47,
+                        "endOffset": 1515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 48,
+                    "endOffset": 674
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1369,
+                        "endColumn": 48,
+                        "endOffset": 1413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 679,
+                    "endColumn": 56,
+                    "endOffset": 731
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1250,
+                        "endColumn": 56,
+                        "endOffset": 1302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 736,
+                    "endColumn": 51,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1419,
+                        "endColumn": 51,
+                        "endOffset": 1466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 40,
+                    "endOffset": 824
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 40,
+                        "endOffset": 53
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 829,
+                    "endColumn": 48,
+                    "endOffset": 873
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 995,
+                        "endColumn": 48,
+                        "endOffset": 1039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 878,
+                    "endColumn": 46,
+                    "endOffset": 920
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 947,
+                        "endColumn": 46,
+                        "endOffset": 989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 925,
+                    "endColumn": 43,
+                    "endOffset": 964
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1521,
+                        "endColumn": 43,
+                        "endOffset": 1560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 969,
+                    "endColumn": 49,
+                    "endOffset": 1014
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 49,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1019,
+                    "endColumn": 52,
+                    "endOffset": 1067
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 52,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1072,
+                    "endColumn": 51,
+                    "endOffset": 1119
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 51,
+                        "endOffset": 305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1124,
+                    "endColumn": 49,
+                    "endOffset": 1169
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 49,
+                        "endOffset": 356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1174,
+                    "endColumn": 48,
+                    "endOffset": 1218
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 48,
+                        "endOffset": 252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1223,
+                    "endColumn": 48,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 48,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 49,
+                    "endOffset": 1317
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 566,
+                        "endColumn": 49,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1322,
+                    "endColumn": 53,
+                    "endOffset": 1371
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 617,
+                        "endColumn": 53,
+                        "endOffset": 666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1376,
+                    "endColumn": 45,
+                    "endOffset": 1417
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 45,
+                        "endOffset": 891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1422,
+                    "endColumn": 49,
+                    "endOffset": 1467
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 49,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1472,
+                    "endColumn": 48,
+                    "endOffset": 1516
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 48,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1521,
+                    "endColumn": 46,
+                    "endOffset": 1563
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 46,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1568,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 1776
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 9189,
+                        "endLine": 201,
+                        "endColumn": 12,
+                        "endOffset": 9397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1781,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2348
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 7932,
+                        "endLine": 181,
+                        "endColumn": 12,
+                        "endOffset": 8499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2353,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 2922
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 8505,
+                        "endLine": 192,
+                        "endColumn": 12,
+                        "endOffset": 9074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2927,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 3318
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 16934,
+                        "endLine": 377,
+                        "endColumn": 12,
+                        "endOffset": 17325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3323,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 3672
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 1611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 3677,
+                    "endLine": 76,
+                    "endColumn": 12,
+                    "endOffset": 3964
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3969,
+                    "endLine": 84,
+                    "endColumn": 12,
+                    "endOffset": 4350
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 9742,
+                        "endLine": 218,
+                        "endColumn": 12,
+                        "endOffset": 10123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 4355,
+                    "endLine": 89,
+                    "endColumn": 12,
+                    "endOffset": 4578
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1033,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4583,
+                    "endLine": 97,
+                    "endColumn": 12,
+                    "endOffset": 4968
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 4973,
+                    "endLine": 108,
+                    "endColumn": 12,
+                    "endOffset": 5563
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3380,
+                        "endLine": 92,
+                        "endColumn": 12,
+                        "endOffset": 3970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 5568,
+                    "endLine": 120,
+                    "endColumn": 12,
+                    "endOffset": 6172
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 13539,
+                        "endLine": 307,
+                        "endColumn": 12,
+                        "endOffset": 14143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 6177,
+                    "endLine": 129,
+                    "endColumn": 12,
+                    "endOffset": 6648
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 14628,
+                        "endLine": 327,
+                        "endColumn": 12,
+                        "endOffset": 15099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 6653,
+                    "endLine": 138,
+                    "endColumn": 12,
+                    "endOffset": 7126
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 14149,
+                        "endLine": 317,
+                        "endColumn": 12,
+                        "endOffset": 14622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 7131,
+                    "endLine": 150,
+                    "endColumn": 12,
+                    "endOffset": 7732
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 15105,
+                        "endLine": 340,
+                        "endColumn": 12,
+                        "endOffset": 15706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 7737,
+                    "endLine": 156,
+                    "endColumn": 12,
+                    "endOffset": 8006
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 5,
+                        "startOffset": 2333,
+                        "endLine": 62,
+                        "endColumn": 12,
+                        "endOffset": 2602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 8011,
+                    "endLine": 165,
+                    "endColumn": 12,
+                    "endOffset": 8434
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 3976,
+                        "endLine": 102,
+                        "endColumn": 12,
+                        "endOffset": 4399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 8439,
+                    "endLine": 169,
+                    "endColumn": 9,
+                    "endOffset": 8591
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 395,
+                        "startColumn": 4,
+                        "startOffset": 18048,
+                        "endLine": 398,
+                        "endColumn": 9,
+                        "endOffset": 18200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 8596,
+                    "endLine": 173,
+                    "endColumn": 12,
+                    "endOffset": 8749
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 16487,
+                        "endLine": 361,
+                        "endColumn": 12,
+                        "endOffset": 16640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 8754,
+                    "endLine": 180,
+                    "endColumn": 12,
+                    "endOffset": 9099
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 379,
+                        "startColumn": 4,
+                        "startOffset": 17335,
+                        "endLine": 385,
+                        "endColumn": 12,
+                        "endOffset": 17680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 9104,
+                    "endLine": 187,
+                    "endColumn": 12,
+                    "endOffset": 9452
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 387,
+                        "startColumn": 4,
+                        "startOffset": 17690,
+                        "endLine": 393,
+                        "endColumn": 12,
+                        "endOffset": 18038
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 9457,
+                    "endLine": 193,
+                    "endColumn": 12,
+                    "endOffset": 9731
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 16650,
+                        "endLine": 368,
+                        "endColumn": 12,
+                        "endOffset": 16924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 9736,
+                    "endLine": 200,
+                    "endColumn": 12,
+                    "endOffset": 10069
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 9403,
+                        "endLine": 209,
+                        "endColumn": 12,
+                        "endOffset": 9736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 10074,
+                    "endLine": 206,
+                    "endColumn": 12,
+                    "endOffset": 10355
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 11074,
+                        "endLine": 246,
+                        "endColumn": 12,
+                        "endOffset": 11355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 10360,
+                    "endLine": 214,
+                    "endColumn": 12,
+                    "endOffset": 10738
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 11361,
+                        "endLine": 255,
+                        "endColumn": 12,
+                        "endOffset": 11739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 10743,
+                    "endLine": 224,
+                    "endColumn": 12,
+                    "endOffset": 11236
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 10575,
+                        "endLine": 239,
+                        "endColumn": 12,
+                        "endOffset": 11068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 11241,
+                    "endLine": 233,
+                    "endColumn": 12,
+                    "endOffset": 11681
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 10129,
+                        "endLine": 228,
+                        "endColumn": 12,
+                        "endOffset": 10569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 11686,
+                    "endLine": 242,
+                    "endColumn": 12,
+                    "endOffset": 12121
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 12558,
+                        "endLine": 283,
+                        "endColumn": 12,
+                        "endOffset": 12993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 12126,
+                    "endLine": 252,
+                    "endColumn": 12,
+                    "endOffset": 12664
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5073,
+                        "endLine": 126,
+                        "endColumn": 12,
+                        "endOffset": 5611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 12669,
+                    "endLine": 262,
+                    "endColumn": 12,
+                    "endOffset": 13203
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 12999,
+                        "endLine": 294,
+                        "endColumn": 12,
+                        "endOffset": 13533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 13208,
+                    "endLine": 272,
+                    "endColumn": 12,
+                    "endOffset": 13747
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 12013,
+                        "endLine": 273,
+                        "endColumn": 12,
+                        "endOffset": 12552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 13752,
+                    "endLine": 279,
+                    "endColumn": 12,
+                    "endOffset": 14100
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 2322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 14105,
+                    "endLine": 290,
+                    "endColumn": 12,
+                    "endOffset": 14749
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 6215,
+                        "endLine": 149,
+                        "endColumn": 12,
+                        "endOffset": 6859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 14754,
+                    "endLine": 297,
+                    "endColumn": 12,
+                    "endOffset": 15105
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1617,
+                        "endLine": 47,
+                        "endColumn": 12,
+                        "endOffset": 1968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 15110,
+                    "endLine": 310,
+                    "endColumn": 12,
+                    "endOffset": 15884
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6865,
+                        "endLine": 163,
+                        "endColumn": 12,
+                        "endOffset": 7639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 15889,
+                    "endLine": 320,
+                    "endColumn": 12,
+                    "endOffset": 16481
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 5617,
+                        "endLine": 137,
+                        "endColumn": 12,
+                        "endOffset": 6209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 16486,
+                    "endLine": 326,
+                    "endColumn": 9,
+                    "endOffset": 16738
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 774,
+                        "endLine": 25,
+                        "endColumn": 9,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 16743,
+                    "endLine": 331,
+                    "endColumn": 12,
+                    "endOffset": 16968
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 11782,
+                        "endLine": 262,
+                        "endColumn": 12,
+                        "endOffset": 12007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 16973,
+                    "endLine": 343,
+                    "endColumn": 12,
+                    "endOffset": 17635
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4405,
+                        "endLine": 115,
+                        "endColumn": 12,
+                        "endOffset": 5067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 17640,
+                    "endLine": 358,
+                    "endColumn": 12,
+                    "endOffset": 18405
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 15712,
+                        "endLine": 356,
+                        "endColumn": 12,
+                        "endOffset": 16477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 18410,
+                    "endLine": 367,
+                    "endColumn": 12,
+                    "endOffset": 18837
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2612,
+                        "endLine": 72,
+                        "endColumn": 12,
+                        "endOffset": 3039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 18842,
+                    "endLine": 374,
+                    "endColumn": 12,
+                    "endOffset": 19171
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3045,
+                        "endLine": 80,
+                        "endColumn": 12,
+                        "endOffset": 3374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 19176,
+                    "endLine": 380,
+                    "endColumn": 12,
+                    "endOffset": 19457
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-tvdpi/styles.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 7645,
+                        "endLine": 170,
+                        "endColumn": 12,
+                        "endOffset": 7926
+                    }
+                }
+            }
+        ]
+    }
+]

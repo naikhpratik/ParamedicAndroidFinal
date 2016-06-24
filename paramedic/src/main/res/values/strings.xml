@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Paramedic Tutor</string>
+    <string name="follow">Follow</string>
+    <string name="about">About</string>
+    <string name="home">Home</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="flashcards">Flashcards</string>
+    <string name="toolbox">Toolbox</string>
+    <string name="scenarios">Scenarios</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="comprehensive_quiz">Comprehensive Quiz</string>
+    <string name="chapter_quizzes">Chapter Quizzes</string>
+    <string name="score_history">Score History</string>
+    <string name="back">Back</string>
+    <string name="answerA">A.   </string>
+    <string name="answerB">B.   </string>
+    <string name="answerC">C.   </string>
+    <string name="answerD">D.   </string>
+    <string name="answerE">E.   </string>
+    <string name="choiceA">A</string>
+    <string name="choiceB">B</string>
+    <string name="choiceC">C</string>
+    <string name="choiceD">D</string>
+    <string name="choiceE">E</string>
+    <string name="bookmarkLabel">Bookmark question for later</string>
+    <string name="quit_cards">Save Flashcards</string>
+    <string name="continue_cards">Continue Flashcards</string>
+    <string name="continue_dosing_cards">Continue Dosing</string>
+    <string name="continue_cardio_cards">Continue Cardiology</string>
+    <string name="quit_cards_question">Do you want to save your place in these flashcards to continue at a later time?</string>
+    <string name="quit_quiz">Save Quiz</string>
+    <string name="quit_dosing_cards">Quit Cards</string>
+    <string name="quit_dosing_message">Do you want to save this cards to continue at a later time?</string>
+    <string name="continue_quiz">Continue Quiz</string>
+    <string name="quit_quiz_question">Do you want to save your score?</string>
+    <string name="save_score">Save Score</string>
+    <string name="do_not_save_score">Don\'t Save Score</string>
+    <string name="chapters">Chapters</string>
+    <string name="all_chapters">All Chapters</string>
+    <string name="dro">Differential Rule Outs</string>
+    <string name="addToBookmarks">Add to Bookmarks</string>
+    <string name="bookmarked">Bookmarked</string>
+    <string name="unbookmark">Unbookmark</string>
+    <string name="skill_sheets">Skill Sheets</string>
+    <string name="diff_rule_outs">Differential Rule Outs</string>
+    <string name="medical_scene">Medical Scene Check Offs</string>
+    <string name="reference_terms">Reference Terms</string>
+    <string name="dosing_title">Dosing</string>
+    <string name="bookmark">BOOKMARK</string>
+    <string name="bookmark_confirm_skill_sheet">Do you want to bookmark this skill sheet?</string>
+    <string name="unbookmark_confirm_skill_sheet">Do you want to unbookmark this skill sheet?</string>
+    <string name="bookmark_confirm_scenario">Do you want to bookmark this scenario?</string>
+    <string name="umbookmark_confirm_scenario">Do you want to unbookmark this scenario?</string>
+	<string name="choose_tip">Choose a result to brag to your friends about your score.</string>
+    
+	<string name="save_test">Do you want to save your place in this quiz to continue at a later time?</string>
+	<string name="continue_test">Do you want to continue where you left off, or delete and start over?</string>
+	<string name="dosing_continue_message">Do you want to continue where you left off, or delete and start over?</string>
+    <string name="cardio_continue_message">Do you want to continue where you left off, or delete and start over?</string>
+	<string name="continue_btn">Continue</string>
+	<string name="delete_btn">Delete</string>
+	<string name="references">Reference</string>
+	<string name="rate_title">Like our app, tell your friends about us</string>
+	<string name="rating_txt">Thanks for using our app, please take a minute to rate us in the app store</string>
+	<string name="no_network">No available netwoke</string>
+	<string name="words_limit">140</string>
+	<string name="cancel">Cancel</string>
+	<string name="post">Send</string>
+	<string name="back_btn">Back</string>
+	<string name="end_fcards_tips">End of flashcards, would you like to review them again?</string>
+	<string name="no_data">Sorry there is no data.</string>
+	
+    <!-- v1.4 from fire fighter -->
+    <string name="checklists">Checklists</string>
+    <string name="clear_all">Clear All</string>
+    <!-- facebook -->
+    <string-array name="facebook_publish_persmissions">
+        <item>publish_actions</item>
+        <item>publish_stream</item>
+    </string-array>
+    <!-- 1418411078380901 311683602308026 -->
+    <string name="facebook_app_id">564955603635341</string>
+    <string name="facebook_app_login_failed_dialog_title">Login failed</string>
+    <string name="facebook_app_ok_button">OK</string>
+    
+    <string name="twitter_login_app_login">twitterlogin</string>
+
+</resources>

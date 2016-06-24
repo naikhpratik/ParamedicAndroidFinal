@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+	var obj = document.getElementById('content_'+ids);
+	var obj_title = document.getElementById('title_'+ids);
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_header_1 = document.getElementById('header_'+ids+'_1');
+	var obj_img = document.getElementById('img_'+ids);
+	if(obj)
+	if(obj.style.display==''){
+		//obj.style.display='none';
+		
+	}else{
+		
+		obj.style.display='';
+	}
+	if(obj_img)
+	if(obj_img.src=="CircleArrowDown.png"){
+		obj_img.src="CircleArrow.png";	
+	}else{
+		obj_img.src="CircleArrowDown.png";	
+	}
+	if(obj_title)
+	if(obj_title.style.display==''){
+		//obj_title.style.display='none';
+		
+	}else{
+		obj_title.style.display='';
+	}
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header.style.display='';
+	}
+	
+	if(obj_header_1)
+    if(obj_header_1.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header_1.style.display='';
+	}
+	//obj_title.style.display='none';
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px;}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #3CF;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <p>25. <b>Car Trauma</b></p>
+    <div class="menu">You are called emergent to a car accident where there is a 40’s male patinet covered in blood. A passer-by called 911 because they saw this patient walking around and he didn’t seem normal. As you approach this patient, he has a large cut across his forehead and the skin from his forehead is hanging in front of his eyes. Patient states that he is fine, just walking home, and he is going home now. You realize that 30 minutes prior you were called to an auto accident where the driver was ejected and ran from the scene. Patient states that he is fine and he is not going to the hospital, and he is not going to answer your questions. There is a trail of blood as far as you can see behind the patient.</div>
+	<ul>
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);">What should you do for this patient?<P>
+
+1. Let this patient refuse<BR>
+2. Bandage patient’s head, and then let him refuse<BR>
+3. Backboard this patient and call a trauma alert at the hospital<BR>
+4. Place patient on nasal cannula and transport
+</a> </li>
+     
+<li id="content_1" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>This patient should be taken to the hospital. Since he has just suffered major head trauma, he should be transported.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>	
+    <div id="header_1" style="display:none" class="menu">You backboard this patient and get a set of vital signs. The patient has vitals of pulse 140, BP 90/p, respirations 30.</div>
+     <ul style="display:none" id="title_1">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_2"/><a href="javascript:hiddencontent(2);">What should you do for this patient?<P>
+
+1. Start an IV and check BGL<BR>
+2. Start an IV and give 40cc/kg bolus of normal saline<BR>
+3. Start bilateral large bore IV’s and give 20cc/kg bolus of normal saline<BR>
+4. Place patient on the cardiac monitor and transport
+</a> </li>
+     
+<li id="content_2" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>This patient is hypotensive, and tachycardic both are signs of shock. Patient should be given a fluid bolus to see if his pressure changes. 20 cc’s/ kg is the standard.</div>
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+	<ul style="display:none" id="title_2">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_3"/><a href="javascript:hiddencontent(3);">You give a 20 cc/kg bolus and the patient states that he is starting to feel better but cannot catch his breath. The patient is developing dyspnea and his left chest appears larger than the right side. You see no significant chest trauma but are unable to hear breath sounds on the left side. After fluid, patient has vitals of pulse 130, BP 100, respirations 32, SPO2 94% on nasal cannula. What should you do for this patient?<P>
+
+1. Give another 20cc/kg bolus and see if pressure improves<BR>
+2. Transport emergent to the hospital<BR>
+3. Start patient on an Albuterol inhaler<BR>
+4. Preform chest decompression
+</a> </li>
+     
+<li id="content_3" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>This patient has a tension pneumothorax. Hypotension, absent breath sounds on one side, dyspnea are all classic signs.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+	var obj = document.getElementById('content_'+ids);
+	var obj_title = document.getElementById('title_'+ids);
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_header_1 = document.getElementById('header_'+ids+'_1');
+	var obj_img = document.getElementById('img_'+ids);
+	if(obj)
+	if(obj.style.display==''){
+		//obj.style.display='none';
+		
+	}else{
+		
+		obj.style.display='';
+	}
+	if(obj_img)
+	if(obj_img.src=="CircleArrowDown.png"){
+		obj_img.src="CircleArrow.png";	
+	}else{
+		obj_img.src="CircleArrowDown.png";	
+	}
+	if(obj_title)
+	if(obj_title.style.display==''){
+		//obj_title.style.display='none';
+		
+	}else{
+		obj_title.style.display='';
+	}
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header.style.display='';
+	}
+	
+	if(obj_header_1)
+    if(obj_header_1.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header_1.style.display='';
+	}
+	//obj_title.style.display='none';
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px;}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #3CF;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <p>4. <b>Bedridden with Complications</b></p>
+    <div class="menu">You respond to a 60 year old male patient who is bedridden in a nursing home. Patient is currently altered. Patient has a complex medical history of kidney failure, emphysema, and heart disease. You take a set of baseline vital signs at heart rate – 140 irregular, BP 140/92, respirations 24 unlabored, BGL 161, SPO2 96 % on room air. You place the patient on 4 lead and 12 lead and this is the 12 lead strip you obtain: <img src=“EKG4.png” />
+</div>
+	<ul>
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);"> Based on these vitals sign findings, the best treatment for this patient is:<P>
+
+1.  Start IV and administer adenosine<BR>
+2.  Consider vagal maneuvers<BR>
+3.  Start IV and draw blood labs<BR>
+4.  Consider other causes for altered mentation
+</a> </li>
+     
+<li id="content_1" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>   Although this patient has altered mentation, the BP and heart rate are not the cause of the problem. At this time it would be best to review AEIOU TIPS to try and identify another cause.
+</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+</div>
+</body>
+</html>

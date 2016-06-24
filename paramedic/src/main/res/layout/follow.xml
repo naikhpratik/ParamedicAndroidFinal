@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/follow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/home_bg" >
+
+        <LinearLayout
+            android:id="@+id/social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingTop="65dp" >
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:id="@+id/ff"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ff" />
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/twitter" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/code3banner"
+            android:layout_width="170dp"
+            android:layout_height="97dp"
+            android:layout_below="@id/social"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/code3banner" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grey_back" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/references" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toolbox_bar" />
+    
+    <LinearLayout
+        android:id="@+id/search_edit_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quiz_bar"
+        android:background="@color/grey"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7px"
+            android:scaleType="centerInside"
+            android:src="@drawable/magnifying_glass" />
+
+        <AutoCompleteTextView
+            android:id="@+id/search_src_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7px"
+            android:completionThreshold="1"
+            android:dropDownHeight="0px" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/search_edit_frame"
+        android:padding="15dp" >
+
+
+        <ListView
+            android:id="@+id/chapter_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/title_name"
+            android:background="@drawable/detail_corner_bg"
+            android:cacheColorHint="@null"
+            android:dividerHeight="0dp"
+            android:drawSelectorOnTop="false"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="0dp"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

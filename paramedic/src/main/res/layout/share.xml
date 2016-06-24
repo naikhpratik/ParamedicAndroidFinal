@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/grey" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Tweet" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/chose_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/publish_content"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/transparent"
+            android:bufferType="spannable"
+            android:gravity="top"
+            android:padding="3dp"
+            android:singleLine="false"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageView
+                android:id="@+id/image_preview"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:visibility="gone" />
+            <!-- 字数 -->
+
+            <TextView
+                android:id="@+id/wordscount_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="right"
+                android:paddingRight="5.0dip"
+                android:text="@string/words_limit"
+                android:textColor="#ff000000"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/sure_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post" />
+    </LinearLayout>
+
+</LinearLayout>

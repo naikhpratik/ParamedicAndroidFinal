@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+	var obj = document.getElementById('content_'+ids);
+	var obj_title = document.getElementById('title_'+ids);
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_header_1 = document.getElementById('header_'+ids+'_1');
+	var obj_img = document.getElementById('img_'+ids);
+	if(obj)
+	if(obj.style.display==''){
+		//obj.style.display='none';
+		
+	}else{
+		
+		obj.style.display='';
+	}
+	if(obj_img)
+	if(obj_img.src=="CircleArrowDown.png"){
+		obj_img.src="CircleArrow.png";	
+	}else{
+		obj_img.src="CircleArrowDown.png";	
+	}
+	if(obj_title)
+	if(obj_title.style.display==''){
+		//obj_title.style.display='none';
+		
+	}else{
+		obj_title.style.display='';
+	}
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header.style.display='';
+	}
+	
+	if(obj_header_1)
+    if(obj_header_1.style.display==''){
+		//obj_header.style.display='none';
+		
+	}else{
+		
+		obj_header_1.style.display='';
+	}
+	//obj_title.style.display='none';
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px;}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #3CF;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <p>28. <b>Chest Pain</b></p>
+    <div class="menu">You are called emergent to a 39 year old male who has chest pain. You arrive on scene to a very healthy looking male who states that he has chest pain 6/10 on pain scale starting 2 hours ago. Patient states that both of his arms/hands are kind of numb. Patient states that he wanted to go to the hospital but started to sweat and he called 911. Patient states that he normally works out and has been going to the gym regularly for 4 years. The patient also reports history of anxiety and is taking citalopram. Denies medication allergies. Baseline vitals are BP 160/100, HR 86, SPO2 95, Respirations 22.</div>
+	<ul>
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);">What would you like to do for this patient?<P>
+
+1. Consider immediate transport to the hospital<BR>
+2. Place the patient on 4 lead, 12 lead and consider ASA<BR>
+3. Coach the patient’s breathing to see if his hands stop hurting<BR>
+4. Place the patient on a nasal cannula and ETCO2, if available, to check for anxiety
+</a> </li>
+     
+<li id="content_1" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div> This patient is complaining of chest pain despite a history of anxiety. Coaching his breathing is okay, but he should still receive a 12 lead.</div>
+            <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>	
+    <div id="header_1" style="display:none" class="menu">You are assessing the patient further and notice that he has a large lateral scar on his chest between both nipples. The patient denies previous cardiac history but states that he had pectus excavatum surgery when he was an infant. You ask what this means and the patient tells you his chest wall was caved in and he had surgery to repair it.<P>
+
+This is the 12 lead that you see:<P>
+<img src=“EKG28.png” /><P>
+ETCO2 comes back at 30 mmHg and you give the patient 324mg ASA. You are on the fence about appropriate treatment. 
+</div>
+     <ul style="display:none" id="title_1">
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+      </b>
+ 	 <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_2"/><a href="javascript:hiddencontent(2);">What should you do for this patient now that you have seen the 12 lead?<P>
+
+1. Transport to appropriate facility and call cardiac alert<BR>
+2. Start IV on scene and administer 0.4mg nitroglycerin<BR>
+3. Coach the patient on breathing and attempt to fix hand cramping/numbness issue<BR>
+4. Consider Hyperkalemia and monitor patient</a> </li>
+     
+<li id="content_2" style="display:none; list-style-type:none; margin-left:10px; margin-right:10px;" >	
+    	 <!-- the roundedcorner start-->
+         <div class="RoundedCorner">
+            <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+            </b>
+            <div>This patient is otherwise healthy and has > 1mm elevation in V3-V5 with depression in III and AVF. This patient needs a cath lab and should be transported immediately. Staying on scene to start an IV is not appropriate. This patient has an 80% occlusion of the left anterior descending coronary artery. Remember that height of elevation does not indicate level of injury.</div>
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+            </b>
+        </div>
+        <!-- the roundedcorner end--> 
+     </li>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+       </div>
+  	</ul>
+</div>
+</body>
+</html>

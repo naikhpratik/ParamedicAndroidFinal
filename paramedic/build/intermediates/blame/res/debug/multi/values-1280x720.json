@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/res/merged/debug/values-1280x720/values-1280x720.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-1280x720/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 29,
+                        "endColumn": 49,
+                        "endOffset": 74
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 47,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/res/values-1280x720/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 80,
+                        "endColumn": 47,
+                        "endOffset": 123
+                    }
+                }
+            }
+        ]
+    }
+]

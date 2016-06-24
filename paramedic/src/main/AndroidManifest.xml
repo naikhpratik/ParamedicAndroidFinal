@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.code3apps.para"
+    android:versionCode="3"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    <!-- <uses-configuration android:reqTouchScreen="finger" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--ADDED-->
+    <uses-feature
+        android:name="android.software.home_screen"
+        android:required="true"
+        android:glEsVersion="0x00030000" />
+    <!--Tillhere-->
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FollowActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".QuizzesActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".FlashcardsActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ToolboxActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ScenariosActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity android:name=".DosingActivity"
+            android:screenOrientation="portrait"/>
+        
+        <activity android:name=".CardiologyActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".File"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".DosingComprehensive"
+            android:screenOrientation="portrait"/>
+            
+        <activity
+            android:name=".ScenariosQuizActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".AllQuiz"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".AllFlashcard"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ChapterQuizzesActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ChapterFcardsActivity"
+            android:screenOrientation="portrait" />
+       <!--
+        <activity
+            android:name=".ChapterQuiz"
+            android:screenOrientation="portrait" />
+       -->
+        <activity
+            android:name=".ScoreHistory"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".CorrectAnswerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        
+        <activity
+            android:name=".BookmarksActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".BookmarkList"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".SkillSheetsActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".AllDiffRuleOutActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".AllHtmlFileActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".FlashcardBookMarked"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ReferencesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        
+        <activity
+            android:name=".WebViewActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".TwitterPostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        
+        <activity
+            android:name=".FlashcardDetail"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ff.SubCheckListsActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".ff.CheckListDetail"
+            android:screenOrientation="portrait" />
+        <!--
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        
+    </application>
+
+</manifest>

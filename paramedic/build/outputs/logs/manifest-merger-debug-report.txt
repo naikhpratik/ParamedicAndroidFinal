@@ -1,0 +1,255 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:2:1-165:12
+	package
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+		INJECTED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:13:22-76
+uses-feature#android.software.home_screen
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:16:5-19:44
+	android:glEsVersion
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:19:9-41
+	android:required
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:17:9-52
+application
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:22:5-163:19
+	android:label
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:23:9-38
+activity#com.code3apps.para.HomeActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:26:9-33:20
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:27:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:31:27-74
+activity#com.code3apps.para.FollowActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:36:13-43
+activity#com.code3apps.para.AboutActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:40:13-42
+activity#com.code3apps.para.QuizzesActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:44:13-44
+activity#com.code3apps.para.FlashcardsActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:48:13-47
+activity#com.code3apps.para.ToolboxActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:52:13-44
+activity#com.code3apps.para.ScenariosActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:56:13-46
+activity#com.code3apps.para.DosingActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:59:9-60:51
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:59:19-49
+activity#com.code3apps.para.CardiologyActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:62:9-63:51
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:62:19-53
+activity#com.code3apps.para.File
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:65:9-66:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:66:13-50
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:65:19-39
+activity#com.code3apps.para.DosingComprehensive
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:68:9-69:51
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:68:19-54
+activity#com.code3apps.para.ScenariosQuizActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:72:13-50
+activity#com.code3apps.para.AllQuiz
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:75:9-77:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:76:13-36
+activity#com.code3apps.para.AllFlashcard
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:80:13-41
+activity#com.code3apps.para.ChapterQuizzesActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:84:13-51
+activity#com.code3apps.para.ChapterFcardsActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:87:9-89:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:88:13-50
+activity#com.code3apps.para.ScoreHistory
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:96:13-41
+activity#com.code3apps.para.CorrectAnswerActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:99:9-102:59
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:101:13-49
+	android:theme
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:102:13-56
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:100:13-50
+activity#com.code3apps.para.BookmarksActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:105:13-46
+activity#com.code3apps.para.BookmarkList
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:108:9-110:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:109:13-41
+activity#com.code3apps.para.SkillSheetsActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:113:13-48
+activity#com.code3apps.para.AllDiffRuleOutActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:116:9-118:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:117:13-51
+activity#com.code3apps.para.AllHtmlFileActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:121:13-48
+activity#com.code3apps.para.FlashcardBookMarked
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:124:9-126:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:125:13-48
+activity#com.code3apps.para.ReferencesActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:128:9-131:67
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:130:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:131:13-64
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:129:13-47
+activity#com.code3apps.para.WebViewActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:133:9-135:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:135:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:134:13-44
+activity#com.code3apps.para.TwitterPostActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:137:9-140:59
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:139:13-49
+	android:theme
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:140:13-56
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:138:13-48
+activity#com.code3apps.para.FlashcardDetail
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:142:9-144:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:143:13-44
+activity#com.code3apps.para.ff.SubCheckListsActivity
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:147:13-53
+activity#com.code3apps.para.ff.CheckListDetail
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:150:9-152:52
+	android:screenOrientation
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:152:13-49
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:151:13-47
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:159:9-161:55
+	android:value
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:161:13-52
+	android:name
+		ADDED from /Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/src/main/AndroidManifest.xml:160:13-58

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grey_back" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar_f" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/quizzes" />
+
+        <TextView
+            android:id="@+id/clear_all"
+            style="@style/topbar_textsmall"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/clear_all" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toolbox_bar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/quiz_bar"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/skill_sheets"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/skillsheets_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/title_name"
+            android:background="@drawable/detail_corner_bg"
+            android:cacheColorHint="@null"
+            android:dividerHeight="0dp"
+            android:drawSelectorOnTop="false"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="0dp"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toolbox_bar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/quiz_bar"
+        android:background="@drawable/grey_back" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/social"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/diff_rule_outs"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/differentials" />
+
+                <ImageView
+                    android:id="@+id/mdedical_scene"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/medscene" />
+
+                <ImageView
+                    android:id="@+id/reference_terms"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/refterms" />
+
+                <ImageView
+                    android:id="@+id/skill_sheets"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/skillsheets"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/bookmarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_icon_height"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bookmarks_nor" 
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

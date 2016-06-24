@@ -1,0 +1,35 @@
+<resources>
+    
+    <dimen name="font_size">16px</dimen>
+    <dimen name="answer_font_size">16px</dimen>
+    <dimen name="title_text_size">22sp</dimen>
+    <dimen name="title_padding_left">75dp</dimen>
+    <dimen name="title_padding_top">15dp</dimen>
+    <dimen name="statics_text_size">17sp</dimen>
+    <dimen name="statics_padding_left">30dp</dimen>
+    <dimen name="statics_padding_top">0dp</dimen>
+    <dimen name="statics_padding_bottom">0dp</dimen>
+    <dimen name="question_text_size">17sp</dimen>
+    <dimen name="answer_text_size">14sp</dimen>
+    <dimen name="text_padding_left">20dp</dimen>
+    <dimen name="text_padding_right">10dp</dimen>
+    <dimen name="text_padding_topbottom">10dp</dimen>
+    <dimen name="content_padding_leftright">20dp</dimen>
+    <dimen name="content_padding_topbottom">7dp</dimen>
+    <dimen name="chapter_padding_topbottom">5dp</dimen>
+    
+    <dimen name="title_bar_size">50dp</dimen>
+    <dimen name="chapter_bar_size">55dp</dimen>
+    <dimen name="home_icon_size">100dp</dimen>
+    <dimen name="home_icon_height">65dp</dimen>
+    <dimen name="banner_height">30dp</dimen>
+    <dimen name="banner_margin_left">22dp</dimen>
+    <dimen name="banner_status_font_size">10sp</dimen>
+    <dimen name="banner_inner_margin">4dp</dimen>
+    <dimen name="fcard_back_line_margintop">5dp</dimen>
+    <dimen name="all_fcard_back_line_margintop">5dp</dimen>
+    <dimen name="fcard_content_margin">20dp</dimen>
+    <dimen name="fcard_arrow_size">60dp</dimen>
+    <dimen name="correct_bg_size">300dp</dimen>
+    <dimen name="left_padding">55px</dimen>
+</resources>

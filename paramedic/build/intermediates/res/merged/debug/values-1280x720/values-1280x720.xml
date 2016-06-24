@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_margin_left">26dp</dimen>
+    <dimen name="home_icon_height">80dp</dimen>
+</resources>

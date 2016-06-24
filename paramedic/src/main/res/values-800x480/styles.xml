@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common style -->
+    <style name="chapter_list_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+    
+    <style name="bookmarkimage_style">
+        <item name="android:layout_width">196dip</item>
+        <item name="android:layout_height">30dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="title_bar">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">40px</item>
+		<item name="android:layout_alignParentTop">true</item>
+	</style>
+	
+    <style name="bottom_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">34dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="bookmarked_icon_style">
+        <item name="android:layout_width">24dip</item>
+        <item name="android:layout_height">17dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">20dip</item>
+    </style>
+
+    <style name="rightactionimage_style">
+        <item name="android:layout_width">22dip</item>
+        <item name="android:layout_height">18dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">80dip</item>
+    </style>
+
+    <style name="leftactionimage_style">
+        <item name="android:layout_width">22dip</item>
+        <item name="android:layout_height">18dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">80dip</item>
+    </style>
+    
+    <style name="choices">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">34dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="topbar_text">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="topbar_textsmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="chapterblacktxtstyle">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingTop">@dimen/chapter_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/chapter_padding_topbottom</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="choicetextstyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="titleblacktxtstyle">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/title_padding_left</item>
+        <item name="android:paddingBottom">@dimen/content_padding_topbottom</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="labelblacktxtstyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="staticstxtstyle">
+        <item name="android:textSize">@dimen/statics_text_size</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/statics_padding_left</item>
+        <item name="android:paddingTop">@dimen/statics_padding_top</item>
+        <item name="android:paddingBottom">@dimen/statics_padding_bottom</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="questiontxtstyle">
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/text_padding_left</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="scoreheadertxtstyle">
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/text_padding_left</item>
+        <item name="android:paddingRight">@dimen/text_padding_right</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="wrongimagestyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/wrong</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="answerbluetxtstyle">
+        <item name="android:textSize">@dimen/answer_text_size</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="answertxtstyle">
+        <item name="android:textSize">@dimen/answer_text_size</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!--
+         A theme for a custom dialog appearance. Here we use an ugly custom 
+        frame.
+    -->
+    <style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/correct</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="explanationblacktxtstyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="bookmarktextstyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="flashstaticstextstyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingTop">25dp</item>
+    </style>
+
+    <style name="flashquestiontextstyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingRight">35dp</item>
+    </style>
+
+    <style name="flashanswertextstyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="flashbookmarktextstyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- v1.4: from fire fighter -->
+    <style name="title_bar_ff">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:background">@drawable/title_bar_f</item>
+    </style>
+
+    <style name="labelwhitetxtstyle2">
+        <item name="android:textSize">36px</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="hand">
+        <item name="android:layout_width">109px</item>
+        <item name="android:layout_height">76px</item>
+        <item name="android:layout_marginLeft">30px</item>
+        <item name="android:layout_marginTop">20px</item>
+        <item name="android:layout_marginRight">10px</item>
+        <item name="android:layout_marginBottom">20px</item>
+        <item name="android:src">@drawable/next</item>
+    </style>
+
+    <style name="labelgreytxtstyle">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/text_padding_topbottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_topbottom</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="chapterwhitetxtstyle">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">25px</item>
+        <item name="android:paddingRight">25px</item>
+        <item name="android:paddingTop">10px</item>
+        <item name="android:paddingBottom">10px</item>
+        <item name="android:gravity">left|center</item>
+    </style>
+
+    <style name="checkdetail_name_txtstyle">
+        <item name="android:textSize">29px</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="checkdetail_info_txtstyle">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">42dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="checklistwhitetxtstyle">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">25px</item>
+        <item name="android:paddingRight">25px</item>
+        <item name="android:paddingTop">10px</item>
+        <item name="android:paddingBottom">10px</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="titlewhitetxtstyle">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--
+        <item name="android:paddingLeft">@dimen/title_padding_left</item>
+        <item name="android:paddingBottom">@dimen/content_padding_topbottom</item>
+        <item name="android:gravity">center_vertical</item>
+        -->
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="correct_dialog">
+        <item name="android:layout_width">480px</item>
+        <item name="android:layout_height">480px</item>
+    </style>
+
+    <style name="correct_dialog_scroll">
+        <item name="android:layout_width">390px</item>
+        <item name="android:layout_height">168px</item>
+        <item name="android:layout_marginTop">98px</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="bookmark_icon">
+        <item name="android:layout_width">60px</item>
+        <item name="android:layout_height">43px</item>
+        <item name="android:layout_marginLeft">40px</item>
+        <item name="android:layout_marginTop">280px</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/bookmark_icon</item>
+    </style>
+
+    <style name="correct_dialog_image_left">
+        <item name="android:layout_width">198px</item>
+        <item name="android:layout_height">112px</item>
+        <item name="android:layout_marginLeft">37px</item>
+        <item name="android:layout_marginTop">330px</item>
+        <item name="android:src">@drawable/correct_left</item>
+    </style>
+
+    <style name="correct_dialog_image_right">
+        <item name="android:layout_width">198px</item>
+        <item name="android:layout_height">112px</item>
+        <item name="android:layout_marginLeft">247px</item>
+        <item name="android:layout_marginTop">330px</item>
+        <item name="android:src">@drawable/correct_right</item>
+    </style>
+
+</resources>

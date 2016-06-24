@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/skill_sheets" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toolbox_bar" />
+
+    <RelativeLayout
+        android:id="@+id/chapter_withblue_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:layout_below="@id/quiz_bar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fcards_chapterbar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/banner_margin_left"
+            android:singleLine="true"
+            android:text="@string/dro"
+            android:textColor="@color/black"
+            android:textSize="@dimen/answer_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bar" >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/left_action" />
+
+        <ImageView
+            android:id="@+id/prev"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/click_bg" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/right_action" />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/click_bg" />
+
+        <ImageView
+            android:id="@+id/bookmark"
+            android:layout_width="24dip"
+            android:layout_height="17dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/bookmarked_icon_old" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webview_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/chapter_withblue_bar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

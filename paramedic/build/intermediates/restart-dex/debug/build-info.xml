@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="100635670201459"
+    token="5451650773886291151" >
+
+    <task
+        name="javac"
+        duration="3072" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1232" />
+    <task
+        name="verifier"
+        duration="90" />
+
+    <artifact
+        location="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/outputs/apk/paramedic-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="100635670201459" >
+        <artifact
+            location="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/outputs/apk/paramedic-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

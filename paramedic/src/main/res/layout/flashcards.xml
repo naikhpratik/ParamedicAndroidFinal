@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/titlebar"
+        android:src="@drawable/fcards_bar" />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/quiz_bar"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/social"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/grey_back" >
+            
+			<ImageView 
+			    android:id="@+id/comprehensive_fcards"
+			    android:layout_width="match_parent"
+            	android:layout_height="@dimen/home_icon_height"
+            	android:scaleType="fitXY"
+            	android:layout_marginTop="15dp"
+            	android:src="@drawable/compfcards" />
+			
+			<ImageView 
+			    android:id="@+id/chapter_fcards"
+			    android:layout_width="match_parent"
+            	android:layout_height="@dimen/home_icon_height"
+            	android:scaleType="fitXY"
+            	android:layout_marginTop="15dp"
+            	android:src="@drawable/chapters_new" />
+			
+			<ImageView 
+			    android:id="@+id/bookmarks"
+			    android:layout_width="match_parent"
+            	android:layout_height="@dimen/home_icon_height"
+            	android:scaleType="fitXY"
+            	android:layout_marginTop="15dp"
+            	android:src="@drawable/bookmarks_nor" />
+			
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

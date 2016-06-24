@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dark_grey_bg" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quiz_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fcards_bar" />
+
+    <RelativeLayout
+        android:id="@+id/chapter_withblue_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:layout_below="@id/quiz_bar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fcards_chapterbar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/banner_margin_left"
+            android:singleLine="true"
+            android:text="@string/all_chapters"
+            android:textColor="@color/black"
+            android:textSize="@dimen/answer_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/prev_next"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bar" >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/left_action" />
+
+        <ImageView
+            android:id="@+id/prev"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/click_bg" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/right_action" />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/click_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/prev_next"
+        android:layout_below="@id/chapter_withblue_bar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" >
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/flashcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fcard_front_bg"
+                android:gravity="center_horizontal"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/statics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="Statics"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/answer_text_size" />
+
+                <ImageView
+                    android:id="@+id/front_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/statics"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fcard_front_line" />
+
+                <RelativeLayout
+                    android:id="@+id/arrow_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="@dimen/fcard_arrow_size"
+                        android:layout_height="@dimen/fcard_arrow_size"
+                        android:src="@drawable/fcard_arrow" />
+                </RelativeLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/arrow_lay"
+                    android:layout_below="@id/front_line" >
+
+                    <TextView
+                        android:id="@+id/question"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/fcard_content_margin"
+                        android:layout_marginRight="@dimen/fcard_content_margin"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Question"
+                        android:textColor="@color/fcard_blue"
+                        android:textSize="@dimen/question_text_size"
+                        android:textStyle="italic" />
+                </ScrollView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/flashcardnext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/fcard_back_bg"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/bookmark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="5dp" >
+
+                    <ImageView
+                        android:id="@+id/bigNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/bookmarkIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/bookmark_icon" />
+
+                    <TextView
+                        android:id="@+id/addToBookmarks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/bookmarkIcon"
+                        android:gravity="bottom"
+                        android:text="@string/addToBookmarks"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/answer_text_size" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/all_fcard_back_line_margintop"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="centerCrop"
+                    android:layout_below="@+id/bookmark"
+                    android:src="@drawable/fcard_back_bg_line" />
+
+                <TextView
+                    android:id="@+id/answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="@dimen/fcard_content_margin"
+                    android:layout_marginRight="@dimen/fcard_content_margin"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:maxLines="6"
+                    android:minLines="1"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:text="Answer Answer"
+                    android:textColor="@color/fcard_blue"
+                    android:textSize="@dimen/answer_text_size"
+                    android:textStyle="italic" />
+
+                <RelativeLayout
+                    android:id="@+id/back_bottom_lay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/fcard_back_bottom_bg" >
+
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/fcard_back_btn" />
+
+                    <ImageView
+                        android:id="@+id/flip_btn_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/flip_btn" />
+
+                    <ImageView
+                        android:id="@+id/next_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/fcard_next" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

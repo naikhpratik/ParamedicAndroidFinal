@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_black">#99444444</color>
+    <color name="red">#ffff0000</color>
+    <color name="blue">#ff004488</color>
+    <color name="fcard_blue">#24BBEB</color>
+    <color name="yellow">#ffffff40</color>
+    <color name="orange">#ffff5500</color>
+    <color name="cutoffcolor">#ff666666</color>
+    <color name="grey">#bbbbbbbb</color>
+    <color name="dark_grey">#ff636363</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_blue">#1789E5</color>
+    <color name="left_blue">#146185</color>
+    <color name="light_gray">#A7A7A7</color>
+    <color name="right_blue">#08314B</color>
+
+</resources>

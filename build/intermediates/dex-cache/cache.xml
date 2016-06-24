@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/libs/twitter4j-core-3.0.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fd32f6a458405bcdd77b68d0c6099a65203da009">
+        <dex dex="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/transforms/dex/debug/folders/1000/2/twitter4j-core-3.0.3_17d056339e1510f06599008beb8ae50068bc305b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="448115f30c7417a00a3e109cea90337eaaf6f330">
+        <dex dex="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_88de831981d837ff7a837a35a8d43d4c8e6f8368/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/libs/libGoogleAnalyticsV2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6c48a1a1621e55c66fa6a381642916385c9dd781">
+        <dex dex="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/transforms/dex/debug/folders/1000/2/libGoogleAnalyticsV2_1c4979ce2af2e1ba0fed8b2b61c456d562131acf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="40b886ab903c52a5db5930093604c742fc302999">
+        <dex dex="/Users/Naik/Downloads/Final/ParamedicAndroidFinal/paramedic/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_71e7856f0f1cadb26064cb9e21e82d6708b791a7/classes.dex" />
+    </item>
+
+</items>

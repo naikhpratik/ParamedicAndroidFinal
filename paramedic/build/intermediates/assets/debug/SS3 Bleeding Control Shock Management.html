@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EMT SCENARIOS</title>
+<script language="javascript">
+function hiddencontent(ids){//hidden the content
+    var obj_header = document.getElementById('header_'+ids);
+	var obj_img = document.getElementById('img_'+ids);
+	
+    if(obj_header)
+    if(obj_header.style.display==''){
+        obj_img.src="CircleArrow.png";
+		obj_header.style.display='none';
+	}else{
+        obj_img.src="CircleArrowDown.png";	
+		obj_header.style.display='';
+	}
+}
+</script>
+<style>
+div.RoundedCornerMain{background: #ccc;}
+b.rtopMain, b.rbottomMain{display:block;background: #FFF}
+b.rtopMain b, b.rbottomMain b{display:block;height: 1px;overflow: hidden; background: #ccc}
+b.r1Main{margin: 0 5px}
+b.r2Main{margin: 0 3px}
+b.r3Main{margin: 0 2px}
+b.rtopMain b.r4Main, b.rbottomMain b.r4Main{margin: 0 1px;height: 2px}
+
+div.RoundedCorner{background: #CC9999; margin-top:15px; margin-left:15px; margin-right:15px}
+b.rtop, b.rbottom{display:block;background: #ccc}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #CC9999}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+.menu {
+	color: #3CF;
+font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+    <p> <b>Bleeding Control, Shock Management</b></p>
+
+    <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+        </b>
+ 	    <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_1"/><a href="javascript:hiddencontent(1);">Bleeding Control/Shock Management</a> </li>
+     
+       <div id="header_1" style="display:none">	
+    	    <!-- the roundedcorner start-->
+           <div class="RoundedCorner">
+              <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+              </b>
+			  <ul>
+                <li>Takes, or verbalizes, body substance isolation precautions</li>
+                <li>Applies direct pressure to the wound</li>
+		<div style="font-weight:bold">Note: the examiner must now inform the candidate that the wound continues to bleed</div>
+		<li>Applies tourniquet</li>
+		<div style="font-weight:bold">Note: The examiner must now inform the candidate the patient is now showing signs and symptoms indicative of hypoperfusion</div>
+                <li>Candidate properly positions the patient</li>
+                <li>Applies high concentration oxygen</li>
+		<li>Initiates steps to prevent heat loss from the patient</li>
+                <li>Indicates the need for immediate transportation</li>
+              </ul>
+              <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+              </b>
+           </div>
+        <!-- the roundedcorner end--> 
+    
+	  </div>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+    </div>
+   <br/>
+   
+   <div class="RoundedCornerMain">
+    	<b class="rtopMain">
+           <b class="r1Main"></b>
+           <b class="r2Main"></b>
+           <b class="r3Main"></b>
+           <b class="r4Main"></b>
+        </b>
+ 	    <li style="list-style-type:none;"><img src="CircleArrow.png" id="img_2"/><a href="javascript:hiddencontent(2);">Critical Criteria: Failures of Omission</a> </li>
+     
+       <div id="header_2" style="display:none">	
+    	    <!-- the roundedcorner start-->
+           <div class="RoundedCorner">
+              <b class="rtop">
+                <b class="r1"></b>
+                <b class="r2"></b>
+                <b class="r3"></b>
+                <b class="r4"></b>
+              </b>
+			  <ul>				
+				 <li>Did not take, or verbalize, body substance isolation precautions</li>
+				 <li>Did not apply high concentration of oxygen</li>
+				 <li>Did not control hemorrhage using correct procedures in a timely manner</li>
+				 <li>Did not indicate a need for immediate transportation</li>
+              </ul>
+              <b class="rbottom">
+                <b class="r4"></b>
+                <b class="r3"></b>
+                <b class="r2"></b>
+                <b class="r1"></b>
+              </b>
+           </div>
+        <!-- the roundedcorner end--> 
+    
+	  </div>
+      <b class="rbottomMain">
+                <b class="r4Main"></b>
+                <b class="r3Main"></b>
+                <b class="r2Main"></b>
+                <b class="r1Main"></b>
+      </b>
+    </div>
+ </body>
+</html>

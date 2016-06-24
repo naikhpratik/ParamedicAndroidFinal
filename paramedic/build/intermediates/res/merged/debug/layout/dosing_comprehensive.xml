@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dark_grey_bg" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar_dosing_com"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:background="@drawable/title_bar"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/topbar_text"
+            android:layout_centerHorizontal="true"
+            android:text="@string/dosing_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_footer_prev_next_dosing_comp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bar" >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/left_action" />
+
+        <ImageView
+            android:id="@+id/img_footerprev_dosing_comp"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/click_bg" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/right_action" />
+
+        <ImageView
+            android:id="@+id/img_footernext_dosing_comp"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/click_bg" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dosing_bar_dosing_com"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chapter_bar_size"
+        android:layout_below="@id/titlebar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dosing_bar" />
+
+    <TextView
+        android:id="@+id/tv_nobookmared_dosing_comp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Bookmarks"
+        android:visibility="gone" />
+
+    <!-- Set Question container -->
+
+    <FrameLayout
+        android:id="@+id/container_dosing_com"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rl_footer_prev_next_dosing_comp"
+        android:layout_below="@id/dosing_bar_dosing_com"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_question_dosing_comp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/fcard_front_bg"
+            android:gravity="center_horizontal"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/arrow_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_dosing"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="7dip" >
+
+                    <Button
+                        android:id="@+id/btn_equation_dosin_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/equation" />
+
+                    <Button
+                        android:id="@+id/btn_answer_dosin_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/answer" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/arrow_lay"
+                android:layout_below="@+id/ll_statics_dosing_comp" >
+
+                <TextView
+                    android:id="@+id/tv_question_dosing_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/fcard_content_margin"
+                    android:layout_marginRight="@dimen/fcard_content_margin"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center"
+                    android:text="Question:"
+                    android:textColor="@color/fcard_blue"
+                    android:textSize="@dimen/question_text_size"
+                    android:textStyle="italic" />
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/ll_statics_dosing_comp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <TextView
+                    android:id="@+id/tv_statics_dosing_comp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/answer_text_size"
+                    android:textStyle="italic"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_statics_total_dosing_comp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/tv_statics_dosing_comp"
+                    android:gravity="center_horizontal"
+                    android:text=" of 24"
+                    android:textColor="@color/light_gray"
+                    android:textSize="@dimen/answer_text_size"
+                    android:textStyle="italic"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/front_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_statics_dosing_comp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fcard_front_line" />
+        </RelativeLayout>
+
+        <!-- Add -->
+
+        <RelativeLayout
+            android:id="@+id/rl_answer_dosing_comp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/fcard_back_bg"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/rl_bookmark_dosing_comp"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dip"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/img_bigNext_dosing_comp"
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="192dp"
+                    android:src="@drawable/click_bg"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_bookmarkIcon_dosing_comp"
+                    android:layout_width="40dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bookmark_icon" />
+
+                <TextView
+                    android:id="@+id/tv_addToBookmarks_dosing_comp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/img_bookmarkIcon_dosing_comp"
+                    android:gravity="bottom"
+                    android:text="@string/addToBookmarks"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/answer_text_size" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_bookmark_dosing_comp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/fcard_back_line_margintop"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fcard_back_bg_line" />
+
+            <RelativeLayout
+                android:id="@+id/back_bottom_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_dosing"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="7dip" >
+
+                    <Button
+                        android:id="@+id/btn_back_answer_dosing_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/quizback" />
+
+                    <ImageView
+                        android:id="@+id/img_goback_answer_dosing_comp"
+                        android:layout_width="@dimen/fcard_arrow_size"
+                        android:layout_height="@dimen/fcard_arrow_size"
+                        android:padding="3dip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fcard_arrow" />
+
+                    <Button
+                        android:id="@+id/btn_next_answer_dosing_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/quiznext" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/back_bottom_lay"
+                android:layout_below="@+id/line"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_answer_dosing_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="@dimen/fcard_content_margin"
+                    android:layout_marginRight="@dimen/fcard_content_margin"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:text="Answer:"
+                    android:textColor="@color/fcard_blue"
+                    android:textSize="@dimen/answer_text_size"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/img_answer_dosing_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="@dimen/fcard_content_margin"
+                    android:layout_marginRight="@dimen/fcard_content_margin"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_equation_dosing_comp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/fcard_back_bg"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/rl_bookmark_equation_dosing_comp"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dip"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/img_bigNext_equation_dosing_comp"
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="192dp"
+                    android:src="@drawable/click_bg"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_bookmarkIcon_equation_dosing_comp"
+                    android:layout_width="40dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bookmark_icon" />
+
+                <TextView
+                    android:id="@+id/tv_addToBookmarks_equation_dosing_comp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/img_bookmarkIcon_equation_dosing_comp"
+                    android:gravity="bottom"
+                    android:text="@string/addToBookmarks"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/answer_text_size" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/line_equation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_bookmark_equation_dosing_comp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/fcard_back_line_margintop"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fcard_back_bg_line" />
+
+            <RelativeLayout
+                android:id="@+id/back_bottom_lay_equation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_dosing"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="7dip" >
+
+                    <Button
+                        android:id="@+id/btn_question_equation_dosing_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/question" />
+
+                    <Button
+                        android:id="@+id/btn_answer_equation_dosing_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/answer" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/back_bottom_lay_equation"
+                android:layout_below="@+id/line_equation"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/quizz_equation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="@dimen/fcard_content_margin"
+                    android:layout_marginRight="@dimen/fcard_content_margin"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:text="Equation:"
+                    android:textColor="@color/fcard_blue"
+                    android:textSize="@dimen/answer_text_size"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/tv_equation_dosing_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="@dimen/fcard_content_margin"
+                    android:layout_marginRight="@dimen/fcard_content_margin"
+                    android:layout_marginTop="20dp"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:text="Answer Answer"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/question_text_size"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

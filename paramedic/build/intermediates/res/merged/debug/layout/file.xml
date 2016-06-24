@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_top_cardiology"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark_grey" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/transparent"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cardiology"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_footer_prev_next_cardio_comp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bar" >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/left_action" />
+
+        <ImageView
+            android:id="@+id/img_footerprev_cardio_comp"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/click_bg" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/right_action" />
+
+        <ImageView
+            android:id="@+id/img_footernext_cardio_comp"
+            android:layout_width="62dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/click_bg" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rl_top_cardiology"
+        android:background="@color/grey"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv_nobookmared_cardio_comp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="No Bookmarks"
+            android:layout_marginLeft="465dp"
+            android:layout_marginTop="300dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/fl_container_cardiology"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp" >
+
+
+            <LinearLayout
+                android:id="@+id/ll_cardiology_next"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" of 47"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/white"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_hint_cardiology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/white"
+                        android:text="Hint"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                         />
+
+                    <ImageView
+                        android:id="@+id/btn_ans_cardioLogy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="12dip"
+                        android:src="@drawable/fcard_arrow" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/img_cardio_comp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dip"
+                    android:layout_marginTop="5dip"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cardiology_previous"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bookmark_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_addToBookmarks_cardio_comp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dip"
+                        android:text="Add to Bookmark"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/title_change_Question_Explanation_Hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Question:"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/blue"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:id="@+id/display_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:scrollbars="horizontal"
+                    android:text="This is a second degree type !! heart block, PR interval stays teh same, but a QRS complex is dropped after 3 beats. There is also a PVC in the ."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/display_explanation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:scrollbars="horizontal"
+                    android:text="This is a second degree type !! heart block, PR interval stays teh same, but a QRS complex is dropped after 3 beats. There is also a PVC in the ."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textStyle="italic" />
+
+
+                <!-- Display Next and Previos Buttons -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:padding="7dip" >
+
+                    <Button
+                        android:id="@+id/btn_previousquestion_cardiology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Back"
+                         />
+
+                    <ImageView
+                        android:id="@+id/btn_question_cardiology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fcard_arrow" />
+
+                    <Button
+                        android:id="@+id/btn_nextquestion_cardiology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Next" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

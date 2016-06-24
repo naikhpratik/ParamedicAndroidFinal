@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="all_fcard_back_line_margintop">5dp</dimen>
+    <dimen name="banner_height">30dp</dimen>
+    <dimen name="banner_inner_margin">4dp</dimen>
+    <dimen name="banner_margin_left">22dp</dimen>
+    <dimen name="banner_status_font_size">10sp</dimen>
+    <dimen name="chapter_bar_size">55dp</dimen>
+    <dimen name="correct_bg_size">300dp</dimen>
+    <dimen name="fcard_arrow_size">60dp</dimen>
+    <dimen name="fcard_back_line_margintop">5dp</dimen>
+    <dimen name="fcard_content_margin">20dp</dimen>
+    <dimen name="home_icon_height">65dp</dimen>
+    <dimen name="home_icon_size">100dp</dimen>
+    <dimen name="left_padding">55px</dimen>
+    <dimen name="title_bar_size">50dp</dimen>
+</resources>
